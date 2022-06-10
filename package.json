@@ -1,0 +1,28 @@
+{
+  "name": "sphixy.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sass/mystyles.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sphixy225/sphixy225.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sphixy225/sphixy225.github.io/issues"
+  },
+  "homepage": "https://github.com/sphixy225/sphixy225.github.io#readme",
+  "devDependencies": {
+    "bulma": "^0.9.4",
+    "node-sass": "^7.0.1"
+  },
+ 
+    "scripts":{ 
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css", 
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  }
+
+
+}
